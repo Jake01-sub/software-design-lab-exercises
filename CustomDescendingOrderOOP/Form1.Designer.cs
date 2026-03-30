@@ -1,24 +1,24 @@
-﻿namespace lab1
+﻿namespace CustomDescendingOrderOOP
 {
-	partial class Form1
-	{
-		/// <summary>
-		///  Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		///  Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
         #region Windows Form Designer generated code
 
@@ -35,19 +35,18 @@
             // listBoxResults
             // 
             listBoxResults.FormattingEnabled = true;
-            listBoxResults.ItemHeight = 15;
-            listBoxResults.Location = new Point(272, 73);
+            listBoxResults.Location = new Point(353, 88);
             listBoxResults.Name = "listBoxResults";
-            listBoxResults.Size = new Size(475, 304);
+            listBoxResults.Size = new Size(350, 274);
             listBoxResults.TabIndex = 0;
             // 
             // btnSort
             // 
-            btnSort.Location = new Point(82, 214);
+            btnSort.Location = new Point(110, 183);
             btnSort.Name = "btnSort";
-            btnSort.Size = new Size(75, 23);
+            btnSort.Size = new Size(132, 84);
             btnSort.TabIndex = 1;
-            btnSort.Text = "Sort";
+            btnSort.Text = "Custom Descending Order";
             btnSort.UseVisualStyleBackColor = true;
             btnSort.Click += btnSort_Click;
             // 
@@ -59,7 +58,7 @@
             Controls.Add(btnSort);
             Controls.Add(listBoxResults);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Custom Descending Order OOP";
             ResumeLayout(false);
         }
 
