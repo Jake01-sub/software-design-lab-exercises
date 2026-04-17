@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFibonacci", "Recur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursivePower", "RecursivePower\RecursivePower.csproj", "{1082DAEF-5BD4-473D-ADD4-8EED02238516}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab3.Tests", "lab3.Tests\lab3.Tests.csproj", "{D3EFB5AF-206B-4580-83A3-578B824F3F6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{1082DAEF-5BD4-473D-ADD4-8EED02238516}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1082DAEF-5BD4-473D-ADD4-8EED02238516}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1082DAEF-5BD4-473D-ADD4-8EED02238516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EFB5AF-206B-4580-83A3-578B824F3F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EFB5AF-206B-4580-83A3-578B824F3F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EFB5AF-206B-4580-83A3-578B824F3F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EFB5AF-206B-4580-83A3-578B824F3F6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

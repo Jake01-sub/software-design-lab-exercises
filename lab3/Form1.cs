@@ -9,9 +9,22 @@ namespace lab3
 
         public class Book
         {
-            public string Title { get; set; }
-            public string Author { get; set; }
+            private string _title;
 
+            public string Title
+            {
+                get { return _title; }
+                set
+                {
+                    if (string.IsNullOrWhiteSpace(value))
+                    {
+                        throw new ArgumentException("Title cannot be empty.");
+                    }
+                    _title = value;
+                }
+            }
+
+            public string Author { get; set; }
             public virtual string GetInfo()
             {
                 return $"{Title} by {Author}";
@@ -20,7 +33,20 @@ namespace lab3
 
         public class Magazine : Book
         {
-            public int IssueNumber { get; set; }
+            private int _issueNumber;
+
+            public int IssueNumber
+            {
+                get { return _issueNumber; }
+                set
+                {
+                    if (value < 0)
+                    {
+                        throw new ArgumentException("Issue number cannot be negative.");
+                    }
+                    _issueNumber = value;
+                }
+            }
 
             public override string GetInfo()
             {
@@ -34,14 +60,27 @@ namespace lab3
 
             public override string GetInfo()
             {
-                return $"{Title} - File Size MB: {FileSizeMB}";
+                return $"{Title} (Ebook, {FileSizeMB}MB)";
             }
 
         }
 
         public class Textbook : Book
         {
-            public string Subject { get; set; }
+            private string _subject;
+
+            public string Subject
+            {
+                get { return _subject; }
+                set
+                {
+                    if (string.IsNullOrWhiteSpace(value))
+                    {
+                        throw new ArgumentException("Subject cannot be empty.");
+                    }
+                    _subject = value;
+                }
+            }
 
             public override string GetInfo()
             {

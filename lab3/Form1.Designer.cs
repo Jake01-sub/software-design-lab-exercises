@@ -47,6 +47,7 @@
             // 
             // lstBookTypes
             // 
+            lstBookTypes.Anchor = AnchorStyles.None;
             lstBookTypes.FormattingEnabled = true;
             lstBookTypes.ItemHeight = 15;
             lstBookTypes.Location = new Point(266, 51);
