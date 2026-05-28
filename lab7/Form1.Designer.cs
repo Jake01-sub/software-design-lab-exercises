@@ -45,6 +45,7 @@
             // 
             // listBoxBooks
             // 
+            listBoxBooks.Anchor = AnchorStyles.None;
             listBoxBooks.FormattingEnabled = true;
             listBoxBooks.ItemHeight = 15;
             listBoxBooks.Location = new Point(12, 65);
@@ -54,6 +55,7 @@
             // 
             // btnPreviousPage
             // 
+            btnPreviousPage.Anchor = AnchorStyles.None;
             btnPreviousPage.Location = new Point(12, 405);
             btnPreviousPage.Name = "btnPreviousPage";
             btnPreviousPage.Size = new Size(101, 26);
@@ -64,6 +66,7 @@
             // 
             // btnNextPage
             // 
+            btnNextPage.Anchor = AnchorStyles.None;
             btnNextPage.Location = new Point(221, 405);
             btnNextPage.Name = "btnNextPage";
             btnNextPage.Size = new Size(101, 26);
@@ -74,6 +77,7 @@
             // 
             // lblPageNumber
             // 
+            lblPageNumber.Anchor = AnchorStyles.None;
             lblPageNumber.AutoSize = true;
             lblPageNumber.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblPageNumber.Location = new Point(145, 409);
@@ -84,6 +88,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Location = new Point(339, 47);
             label1.Name = "label1";
@@ -93,6 +98,7 @@
             // 
             // txtAuthorName
             // 
+            txtAuthorName.Anchor = AnchorStyles.None;
             txtAuthorName.Location = new Point(339, 65);
             txtAuthorName.Name = "txtAuthorName";
             txtAuthorName.Size = new Size(145, 23);
@@ -100,6 +106,7 @@
             // 
             // txtBookTitle
             // 
+            txtBookTitle.Anchor = AnchorStyles.None;
             txtBookTitle.Location = new Point(339, 118);
             txtBookTitle.Name = "txtBookTitle";
             txtBookTitle.Size = new Size(145, 23);
@@ -107,6 +114,7 @@
             // 
             // lbl1
             // 
+            lbl1.Anchor = AnchorStyles.None;
             lbl1.AutoSize = true;
             lbl1.Location = new Point(339, 100);
             lbl1.Name = "lbl1";
@@ -116,6 +124,7 @@
             // 
             // btnAddBook
             // 
+            btnAddBook.Anchor = AnchorStyles.None;
             btnAddBook.Location = new Point(366, 151);
             btnAddBook.Name = "btnAddBook";
             btnAddBook.Size = new Size(93, 26);
@@ -126,6 +135,7 @@
             // 
             // btnExportBooks
             // 
+            btnExportBooks.Anchor = AnchorStyles.None;
             btnExportBooks.Location = new Point(366, 195);
             btnExportBooks.Name = "btnExportBooks";
             btnExportBooks.Size = new Size(93, 26);
@@ -136,6 +146,7 @@
             // 
             // txtSearchTitle
             // 
+            txtSearchTitle.Anchor = AnchorStyles.None;
             txtSearchTitle.Location = new Point(12, 30);
             txtSearchTitle.Name = "txtSearchTitle";
             txtSearchTitle.Size = new Size(211, 23);
@@ -143,6 +154,7 @@
             // 
             // btnSearchBooks
             // 
+            btnSearchBooks.Anchor = AnchorStyles.None;
             btnSearchBooks.Location = new Point(229, 28);
             btnSearchBooks.Name = "btnSearchBooks";
             btnSearchBooks.Size = new Size(93, 26);
@@ -153,6 +165,7 @@
             // 
             // btnImportBooks
             // 
+            btnImportBooks.Anchor = AnchorStyles.None;
             btnImportBooks.Location = new Point(366, 240);
             btnImportBooks.Name = "btnImportBooks";
             btnImportBooks.Size = new Size(93, 26);
